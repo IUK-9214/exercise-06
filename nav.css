@@ -91,7 +91,7 @@ column-gap: 10px;
     
 }
 input{
-    background-color: rgba(50, 50, 210, 0.959);
+    background-color: rgba(50, 50, 210, 0.817);
     text-decoration-color: none;
     padding: 10px;
     color: white;
@@ -108,7 +108,7 @@ input{
 }
 .containerpack{
     margin: 0px auto;
-    background-color: antiquewhite;
+    
     height: 1000px;
     width: 80vw;
     display: grid;
@@ -118,9 +118,74 @@ input{
     
 }
 .packs{
+    border-radius: 20px;
     margin: 20px;
-height: 200px;
+height: 220px;
 width: 300px;
-background-color: aqua;
+background-color: rgba(0, 255, 174, 0.416);
+display: grid;
+grid-template-columns: 120px 120px ;
+grid-template-rows: 70px 150px;
+justify-content: center;
+align-items: center;
+
+}
+.packs:hover{
+    border-radius: 20px;
+    margin: 20px;
+height: 220px;
+width: 300px;
+background-color: rgba(0, 255, 255, 0.76);
+display: grid;
+grid-template-columns: 120px 120px ;
+grid-template-rows: 70px 150px;
+justify-content: center;
+align-items: center;
+transform: scale3d(30deg);
+
+}
+.content{
+    grid-area: 1/2;
+    position: relative;
+    right: 50px;
+    top: 20px;
+    font-weight: 600;
+    font-size: x-large;
+}
+.button1{
+    background-color: rgba(0, 0, 255, 0.537);
+    padding: 4px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 10px;
+    grid-area: 2/1;
+    width: 100px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    text-align: center;
+}
+.button1:hover{
+    background-color: rgba(0, 0, 255, 0.934);
+    padding: 4px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 10px;
+    grid-area: 2/1;
+    width: 100px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.b1{
+    grid-area: 2/2;
+    background-color: rgba(18, 141, 31, 0.731);
+}
+.b1:hover{
+    background-color: rgba(18, 141, 30, 0.975);
+    grid-area: 2/2;
 }
 
