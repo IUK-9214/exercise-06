@@ -106,4 +106,21 @@ input{
     border: none;
     cursor: pointer;
 }
+.containerpack{
+    margin: 0px auto;
+    background-color: antiquewhite;
+    height: 1000px;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 40px 40px;
+    
+}
+.packs{
+    margin: 20px;
+height: 200px;
+width: 300px;
+background-color: aqua;
+}
 
