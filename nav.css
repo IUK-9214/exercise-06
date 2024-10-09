@@ -189,4 +189,18 @@ transform: scaleX(1.1);
     background-color: rgba(18, 141, 30, 0.975);
     grid-area: 2/2;
 }
+@media  screen and ( max-width:510px) {
+    .containerpack{
+        margin: 0px auto;
+        
+        height: 1000px;
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px 10px;
+        
+    }
+    
+}
 
